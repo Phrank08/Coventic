@@ -26,15 +26,35 @@
 
   .sidebar {
     width: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .menu {
     width: 20px;
   }
 
-  .social-links img, 
-  .useful-links img {
-    width: 20px;
+  .social-links {
+    position: static;
+    transform: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 40px;
+  }
+
+  .social-links img {
+    width: 28px;
+    margin: 0 auto;
+  }
+  
+  .useful-links {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
   }
 
   .bubbles img {
@@ -43,6 +63,14 @@
 
   .bubbles {
     bottom: -100px;
+  }
+
+  .navbar button {
+    margin-right: 30px;
+  }
+
+  .content button {
+    margin-top: 20px;
   }
 
   .bubbles img:nth-child(1),
@@ -62,7 +90,7 @@
 /* For smaller phones (max-width: 480px) */
 @media screen and (max-width: 480px) {
   .content h1 {
-    font-size: 30px;
+    font-size: 28px;
     line-height: 40px;
   }
 
@@ -73,6 +101,15 @@
 
   .sidebar {
     width: 35px;
+  }
+
+  .social-links img, 
+  .useful-links img {
+    width: 24px;
+  }
+
+  .menu {
+    width: 22px;
   }
 
   .social-links {
