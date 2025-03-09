@@ -1,0 +1,81 @@
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+  .navbar {
+    width: 90%;
+    height: 12%;
+  }
+
+  .logo {
+    width: 70px;
+  }
+
+  button {
+    padding: 8px 18px;
+    font-size: 14px;
+  }
+
+  .content {
+    left: 5%;
+  }
+
+  .content h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin: 5px 0 20px;
+  }
+
+  .sidebar {
+    width: 40px;
+  }
+
+  .menu {
+    width: 20px;
+  }
+
+  .social-links img, 
+  .useful-links img {
+    width: 20px;
+  }
+
+  .bubbles img {
+    width: 30px;
+  }
+
+  .bubbles {
+    bottom: -100px;
+  }
+
+  .bubbles img:nth-child(1),
+  .bubbles img:nth-child(3) {
+    width: 15px;
+  }
+
+  .bubbles img:nth-child(6) {
+    width: 15px;
+  }
+
+  .bubbles img:nth-child(7) {
+    width: 25px;
+  }
+}
+
+/* For smaller phones (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  .content h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  button {
+    padding: 6px 15px;
+    font-size: 12px;
+  }
+
+  .sidebar {
+    width: 35px;
+  }
+
+  .social-links {
+    top: 45%;
+  }
+}
